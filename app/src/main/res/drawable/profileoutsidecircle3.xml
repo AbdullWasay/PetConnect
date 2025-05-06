@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="4dp"
+                android:color="#1B84F2" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/dogprofile"
+        android:width="50dp"
+        android:height="50dp"
+        android:gravity="center" />
+</layer-list>

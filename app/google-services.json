@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "686597400927",
+    "firebase_url": "https://petconnect-967b8-default-rtdb.firebaseio.com",
+    "project_id": "petconnect-967b8",
+    "storage_bucket": "petconnect-967b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686597400927:android:5041cc1208ec0105a8eeea",
+        "android_client_info": {
+          "package_name": "com.binarybeats.petconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY_8cGoxdWC7W4f--KwcbMImvjJ4Hq93Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="4dp"
+                android:color="#547087" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/catprofile"
+        android:width="50dp"
+        android:height="50dp"
+        android:gravity="center" />
+</layer-list>

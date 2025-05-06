@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    tools:context=".Verify_Code">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/bgdog"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.737"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="@drawable/cardview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.55"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validation code "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="287dp"
+            android:layout_height="46dp"
+            android:text="Check your email inbox and enter the validation code here"
+            android:textAlignment="center"
+            android:textColor="#808A99"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.035">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/otp1"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/stroke2"
+            android:hint="1"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:shadowColor="#FFFFFF"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/otp2"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/stroke2"
+            android:hint="l"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:shadowColor="#FFFFFF"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/otp1"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/otp3"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/stroke2"
+            android:hint="_"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:shadowColor="#FFFFFF"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/otp2"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/otp4"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/stroke2"
+            android:hint="_"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:shadowColor="#FFFFFF"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/otp3"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/otp5"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/stroke2"
+            android:hint="_"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:shadowColor="#FFFFFF"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/otp4"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/SignupButton"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="#1B84F2"
+            android:text="Confirm"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/otp1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="240dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="130dp"
+            android:text="Did not receive the code?"
+            android:textAlignment="center"
+            android:textColor="#808A99"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SignupButton"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/resend"
+            android:layout_width="200dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="32dp"
+            android:text="Resend"
+            android:textAlignment="center"
+            android:textColor="#1B84F2"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SignupButton"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
