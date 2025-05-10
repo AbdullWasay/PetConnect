@@ -78,6 +78,8 @@ class Add_Pet_Appointment : AppCompatActivity() {
         }
 
     }
+
+    //load
     private fun loadPetImage(imageUrl: String) {
         val profileImageView = findViewById<ImageView>(R.id.profileImg)
         Glide.with(this@Add_Pet_Appointment)
