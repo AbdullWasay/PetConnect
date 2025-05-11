@@ -44,7 +44,7 @@ class BookAppointment : AppCompatActivity() {
 
     fun book_appointment(view: View) {
         if (::selectedDate.isInitialized ) {
-            // Save booking information to Firebase Realtime Database
+            
             val bookingData = mapOf(
                 "petName" to petName,
                 "selectedDate" to selectedDate,
