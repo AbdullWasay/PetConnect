@@ -90,7 +90,7 @@ class SignUp : AppCompatActivity() {
                                 }
                         }
                     } else {
-                        // User creation failed
+                        
                         val errorMessage = (task.exception?.message ?: "Unknown error occurred")
                         Toast.makeText(this, "Sign up failed: $errorMessage", Toast.LENGTH_SHORT).show()
                     }
