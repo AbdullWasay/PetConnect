@@ -87,7 +87,7 @@ class Add_Profile_Important_Dates : AppCompatActivity() {
     }
 
     private fun setViewConstraintsEnd() {
-        // Set constraints for view2 to match view's constraints
+    
          // Make view2 visible
         findViewById<View>(R.id.view2).visibility = View.VISIBLE
         // Make view invisible
