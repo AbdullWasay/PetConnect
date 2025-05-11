@@ -62,7 +62,7 @@ class AddPetProfile : AppCompatActivity() {
     private fun handleSpecies(species: String) {
         selectedSpecies = species
 
-        // Reset backgrounds for all image views
+        
         findViewById<ImageView>(R.id.cat).setBackgroundResource(0)
         findViewById<ImageView>(R.id.dog).setBackgroundResource(0)
         findViewById<ImageView>(R.id.bird).setBackgroundResource(0)
