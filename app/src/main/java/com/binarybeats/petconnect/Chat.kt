@@ -469,7 +469,6 @@ class Chat : BaseActivity() {
     {
 
 
-        // Navigate back to the aboutme screen with the user's name
         val intent = Intent(this, Login::class.java).apply {
 
         }
