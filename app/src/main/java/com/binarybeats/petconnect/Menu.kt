@@ -128,7 +128,7 @@ class Menu : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                // Handle onCancelled event if needed
+                
             }
         })
     }
