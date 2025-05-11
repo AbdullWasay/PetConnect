@@ -84,7 +84,7 @@ class Add_Pet_Appointment : AppCompatActivity() {
         val profileImageView = findViewById<ImageView>(R.id.profileImg)
         Glide.with(this@Add_Pet_Appointment)
             .load(imageUrl)
-            .error(R.drawable.img_photo_place_image) // Load a default image in case of error
+            .error(R.drawable.img_photo_place_image) 
             .into(profileImageView)
     }
 
